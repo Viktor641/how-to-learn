@@ -17,22 +17,15 @@
   display: flex;
   position: relative;
   margin: 0 auto;
-  background-color: #f2f2f2 ;
+  background-color: #f2f2f2;
 }
 
   /* выше установили ограничения для секции */
 .logo {
-  position: absolute;
   margin: 0 auto;
   width: 228px;
   height: 32px;
 }
-
-.logo__place_header {
-  top: 30px;
-  left: 64px;
-  z-index: 2;
-} 
 
 .logo__place_header {
   position: absolute;
@@ -200,7 +193,7 @@
   position: relative;
   height: 890px;
   align-items: center;
-  background-color: #f2f2f2 ;
+  background-color: #f2f2f2;
   flex-direction: column;
   z-index: -2;
 }
@@ -328,6 +321,9 @@
 
 .logo_place_footer {
   background-image: url(/how-to-learn/images/logo_place_footer.svg);
+  top: 0;
+  left: 0;
+  position: absolute;
 }
 
 .footer__author {
