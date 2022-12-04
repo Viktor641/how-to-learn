@@ -290,6 +290,7 @@
   position: relative;
   display: flex;
   padding: 60px 0 40px;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -319,7 +320,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  margin: 0 0 18px;
+  margin: 18px 0;
 }
 
 .footer__column-heading {
