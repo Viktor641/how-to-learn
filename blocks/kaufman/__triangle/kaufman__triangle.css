@@ -7,5 +7,4 @@
     background-image: url(/images/kaufman-triangle.svg);
     right: -210px;
     background-size: cover;
-    animation: move_bg 20s linear infinite;
   }

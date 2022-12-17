@@ -1,4 +1,4 @@
-@keyframes move_bg {
+@keyframes rotation {
     0% {
       transform: rotate(0deg);
     }
@@ -6,3 +6,7 @@
       transform: rotate(360deg);
     }
   }
+
+.rotation {
+  animation: rotation linear 20s infinite;
+}

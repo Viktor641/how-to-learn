@@ -5,9 +5,5 @@
     font-weight: normal;
     margin-bottom: 20px;
     margin-top: 16px;
-  }
-  
-  .footer__column-links:hover {
-    opacity: 0.5;
-    transition: 0.5s linear 0.2s;
+    list-style-type: none;
   }

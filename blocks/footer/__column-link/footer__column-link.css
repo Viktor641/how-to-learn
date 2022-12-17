@@ -3,11 +3,5 @@
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
-    list-style-type: none;
     text-decoration: none;
-  }
-  
-  .footer__column-link:hover {
-    opacity: 0.5;
-    transition: 0.5s linear 0.2s;
   }
